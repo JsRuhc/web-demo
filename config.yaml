@@ -1,0 +1,28 @@
+name: 
+mode: 
+port: 
+version: 
+
+log:
+  level: 
+  filename: 
+  max_size: 
+  max_age: 
+  max_backups: 
+
+mysql:
+  host: 
+  port: 
+  user: 
+  password: 
+  dbname:
+  max_open_conns: 
+  max_idle_conns: 
+
+redis:
+  host: 
+  port: 
+  db: 
+  passwd: 
+  pool_size: 
+
