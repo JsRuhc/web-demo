@@ -16,17 +16,7 @@ type LogConfig struct {
 	MaxBackups int    `mapstructure:"max_backups"`
 }
 
-/*
-mysql:
 
-	host: "127.0.0.1"
-	port: 3306
-	user: "root"
-	password: "root"
-	dbname:
-	max_open_conns: 200
-	max_idle_conns: 10
-*/
 type MySQLConfig struct {
 	Host         string `mapstructure:"host"`
 	Port         int    `mapstructure:"port"`
@@ -37,15 +27,7 @@ type MySQLConfig struct {
 	MaxIdleConns int    `mapstructure:"max_idle_conns"`
 }
 
-/*
-redis:
 
-	host: "127.0.0.1"
-	port: 6379
-	db: 0
-	passwd: ""
-	pool_size: 100
-*/
 type RedisConfig struct {
 	Host     string `mapstructure:"host"`
 	PassWord string `mapstructure:""`
